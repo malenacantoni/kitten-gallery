@@ -1,0 +1,42 @@
+.everything{
+  margin: 30px;
+}
+.bg{
+  background-color: #B5D3E7;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  font-family: 'Kaushan Script', cursive;
+  background-color: #FFB6C1;
+  border: solid black 5px;
+  box-shadow: 10px 10px 5px grey;
+}
+.by{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+}
+.kittens{
+  display: flex;
+  justify-content: space-around;
+}
+.kitten1{
+  height: 325px;
+  width: 325px;
+  object-fit: cover;
+  margin-bottom: 30px;
+  border: solid black 5px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+@media screen and (max-width: 500px){
+  .kitten1{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+}
